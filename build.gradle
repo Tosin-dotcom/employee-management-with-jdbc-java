@@ -1,0 +1,19 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+
+mainClassName = 'com.app.App'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.+'
+}
+
+run {
+    standardInput = System.in
+}
