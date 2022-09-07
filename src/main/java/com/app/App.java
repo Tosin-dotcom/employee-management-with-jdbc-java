@@ -91,7 +91,7 @@ public class App {
                             System.out.printf("%-3s %-20s %-20s %-4d %-15s\n", eid, name, role, age, date.toString());
 
                         }
-                        break;
+                        break; 
 
                     default:
                         break;
